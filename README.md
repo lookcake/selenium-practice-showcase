@@ -30,6 +30,10 @@ Target web page: Rahul Shetty Academy Automation Practice Page.
 - **Centralized explicit waits**: visibility/clickability/presence checks are wrapped in `Waits`
 - **Small retry on stale**: base actions retry once for SPA-like re-render
 
+## CI Smoke Test Status
+![UI Smoke Tests](https://github.com/lookcake/selenium-practice-showcase/actions/workflows/smoke.yml/badge.svg)
+
+
 ## How to run (local)
 ### 1) Install
 ```bash
@@ -39,4 +43,6 @@ pip install -r requirements.txt
 
 pytest -m smoke
 pytest -m regression
+
+
 
